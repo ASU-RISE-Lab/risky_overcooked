@@ -50,19 +50,21 @@ has been shown to promote effective coordination and trustworthy interactions [3
 and adapting to partner's risk-sensitivity as _Risk-Sensitive Theory of Mind_ (RS-ToM) where the study in [4] shows main
 results for adapting to an agent of unknown risk-sensitivity.
 
-[//]: # (<p align="center">)
+<div align="center">
+    <img src="./images/PolicyHeatmaps.png" width="80%">
+  <i><br> Fig. State visitation frequency heatmaps of different risk-sensitive teams showing puddle avoidance or traversal in the Risky Coordination Ring (RCR) and Risky MultiPath (RMP) layouts [4].
+  </i>
+</div>
 
-[//]: # (  <img src="./images/study1_summary.png" height="300px">)
 
-[//]: # (  <i><br> Fig. RS-ToM reasoning about and adapting to a partner's of unknown risk-sensitivy in Risky Overcooked's Risky MultPath &#40;RMP&#41; layout.</i>)
 
 [//]: # (</p>)
+<br>
 
-
-The original version of this repository was released with the paper *Risk-Sensitive Theory of Mind: Coordinating with
-Agents of Unknown Bias using Cumulative Prospect Theory* (ICML 2025) [4].
+<sub> _*The original version of this repository was released in (ICML 2025) [4].
 It has since undergone minor modifications to improve the environment and algorithm implementations.
-However, the original models and reproducible results can be found in `src/study_1/`.
+However, the original models and reproducible results can be found in `src/study_1/`._
+</sub>
 
 ## Research Papers:
 
@@ -125,10 +127,6 @@ python ./testing/package_test.py
 
 ---
 
-## Questions and Comments
-
-Please direct your questions and comments to Mason O. Smith at mosmith3@asu.edu
-
 
 ## References
 [1] Carroll, M., Shah, R., Ho, M. K., Griffiths, T., Seshia, S.,
@@ -149,6 +147,11 @@ on Human-Robot Interaction_, 14(2):1–30, 2025.
 Mind: Coordinating with agents of Unknown Bias using Cumulative 
 Prospect Theory," In _Proceedings of the International Conference 
 on Machine Learning (ICML)_, 2025. accepted
+
+## Questions and Comments
+
+Please direct your questions and comments to Mason O. Smith at mosmith3@asu.edu
+
 
 ## Dev Log (Coming Soon)
 - Working on PyPI installation
