@@ -45,12 +45,15 @@ without the need for a data prior where human risk is present since we leverage 
 During online interaction, Bayesian inference is performed to infer to and align with the partner's risk-sensitivity which
 has been shown to promote effective coordination and trustworthy interactions [3]. We refer to this concept of reasoning
 and adapting to partner's risk-sensitivity as _Risk-Sensitive Theory of Mind_ (RS-ToM) where the study in [4] shows main
-results for adapting to an agent of unkown risk-sensitivity.
+results for adapting to an agent of unknown risk-sensitivity.
 
-<p align="center">
-  <img src="./images/study1_summary.png" height="300px">
-  <i><br> Fig. RS-ToM reasoning about and adapting to a partner's of unknown risk-sensitivy in Risky Overcooked's Risky MultPath (RMP) layout.</i>
-</p>
+[//]: # (<p align="center">)
+
+[//]: # (  <img src="./images/study1_summary.png" height="300px">)
+
+[//]: # (  <i><br> Fig. RS-ToM reasoning about and adapting to a partner's of unknown risk-sensitivy in Risky Overcooked's Risky MultPath &#40;RMP&#41; layout.</i>)
+
+[//]: # (</p>)
 
 
 The original version of this repository was released with the paper *Risk-Sensitive Theory of Mind: Coordinating with
