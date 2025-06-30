@@ -16,7 +16,7 @@ Here, we provide a risky coordination task where agents must make and deliver on
 This is done by placing 3 onions in the pot, waiting for the soup to cook, bringing a dish to the pot to pick up the
 soup, and delivering the soup to the serving station.
 Risk is explicitly incorporated into the environment by adding puddles in the way of the aforementioned subtasks.
-When an agent enters a puddle with an object (e.g. dish, soup, or onion) it has a $p_{slip}$% chance of slipping and
+When an agent enters a puddle with an object (e.g. dish, soup, or onion) it has a $p_{slip}$ chance of slipping and
 losing the object.
 Thus, agents must decide between:
 
