@@ -119,7 +119,7 @@ python ./testing/package_test.py
     
 - `models/`: pretrained models used in [4] (trained on earlier version of code)
 - `results/`: raw results from [4] 
-- `scripts/': executable *.py scripts to generate results
+- `scripts/`: executable *.py scripts to generate results
   - `belief_test.py`: simulates Bayesian inference over risk-averse, risk-neutral, and risk-seeking partners
   - `policy_heatmap.py`: generates heatmap of risk-sensitive policies
   - `simulation_results.py`: generates data for table of results from [4]
