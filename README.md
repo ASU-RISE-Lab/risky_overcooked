@@ -26,7 +26,7 @@ Thus, agents must decide between:
 - **Handoff object over a counter:** resulting in possible coordination costs to avoid puddles and long detours.
 
 Provided in `src/risky_overcooked_rl/algorithms/DDQN` is the implementation of the multi-agent risk-sensitive
-reinforcement learning (MARSRL) algorithm used to train risk-sensitive polices.
+reinforcement learning (MARSRL) algorithm used to train risk-sensitive polices (see `DDQN/README.md` for more details).
 This algorithm implements a Double Deep Q-Network (DDQN) modified with risk-sensitive objective based on Cumulative
 Prospect Theory (CPT) [2].
 We apply a level-k quantal response equilibrium (QRE) as a tractable alternative to Nash equilibrium policies.
