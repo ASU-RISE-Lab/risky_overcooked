@@ -1,13 +1,12 @@
 # Risky Overcooked
-
 <p align="center">
-  <img src=".\images\risky_coordination_ring_averse.gif" width="25%"> 
-  <img src="./images/risky_coordination_ring_seeking.gif" width="25%">
-  <i><br> Risk-sensitive strategies. Risk-averse agents (left) coordinate to avoid puddles while risk-seeking agents 
+  <img src=".\images\risky_coordination_ring_averse.gif" width="40%"> 
+  <img src="./images/risky_coordination_ring_seeking.gif" width="40%">
+  <i><br> Fig. Risk-sensitive strategies. Risk-averse agents (left) coordinate to avoid puddles while risk-seeking agents 
           (right) remain more independent by traversing puddles.</i>
 </p>
 
----
+
 
 ## Introduction
 
@@ -31,13 +30,17 @@ reinforcement learning (MARSRL) algorithm used to train risk-sensitive polices.
 This algorithm implements a Double Deep Q-Network (DDQN) modified with risk-sensitive objective based on Cumulative
 Prospect Theory (CPT) [2].
 We apply a level-k quantal response equilibrium (QRE) as a tractable alternative to Nash equilibrium policies.
-<p align="center">
-    <img src="./images/CPT_animation_all.gif" height="150px">
+
+<div align="center">
+    <img src="./images/CPT_animation_all.gif" width="80%">
   <i><br> Fig. Prospect curves from CPT animation showing the risk-sensitive value of the action space for each agent in the
           _Risky Overcooked_ environment. In MARSRL, the all possible TD-targets, given stochastic state transitions,
-          and their probabilities are passed through CPT to create a biased expectation of CPT-value over the TD-targets.</i>
-</p>
+          and their probabilities are passed through CPT to create a biased expectation of CPT-value over the TD-targets.
+          <br>
+  </i>
+</div>
 
+<br>
 
 By enabling autonomous agents to learn these risk-sensitive strategies, we can generate adaptive behaviors when interacting
 with biased humans by pre-training a space of candidate policies offline. This affords personalization to different humans
@@ -60,7 +63,6 @@ The original version of this repository was released with the paper *Risk-Sensit
 Agents of Unknown Bias using Cumulative Prospect Theory* (ICML 2025) [4].
 It has since undergone minor modifications to improve the environment and algorithm implementations.
 However, the original models and reproducible results can be found in `src/study_1/`.
----
 
 ## Research Papers:
 
@@ -68,7 +70,6 @@ However, the original models and reproducible results can be found in `src/study
 Mind: Coordinating with agents of Unknown Bias using Cumulative 
 Prospect Theory," In _Proceedings of the International Conference 
 on Machine Learning (ICML)_, 2025. accepted
----
 
 ## Installation:
 We currently offer only building from source.
@@ -90,7 +91,6 @@ This includes installation of pytorch. You may need to modify the `requirements.
 python ./testing/package_test.py
 ```
 
-___
 
 ## Repository Overview:
 
