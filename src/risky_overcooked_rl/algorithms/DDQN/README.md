@@ -1,9 +1,11 @@
 # Deep Double Q-Learning (DDQN) MARSRL Algorithm
 
-<div align="center" width="80%">
-  <img src=".\..\..\images\MARSRL.png" > 
-  <i><br> Block diagram of the MARSRL algorithm with DDQN and CPT.</i>
+<div align="center">
+  <img src="/images/MARSRL.png" > 
+  <i><br> Fig. Block diagram of the MARSRL algorithm with DDQN and CPT.</i>
 </div>
+
+<br>
 
 This is a  implementation of the Deep Double Q-Learning (DDQN) algorithm for reinforcement learning. 
 The DDQN algorithm is an improvement over the standard DQN algorithm, which helps to reduce the overestimation 
