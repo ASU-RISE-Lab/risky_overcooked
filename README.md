@@ -68,10 +68,10 @@ However, the original models and reproducible results can be found in `src/study
 
 ## Research Papers:
 
-- Smith, M. O. and Zhang, W. Risky Sensitive Theory of 
+- [Smith, M. O. and Zhang, W. Risky Sensitive Theory of 
 Mind: Coordinating with agents of Unknown Bias using Cumulative 
 Prospect Theory," In _Proceedings of the International Conference 
-on Machine Learning (ICML)_, 2025. accepted
+on Machine Learning (ICML)_, 2025](https://openreview.net/forum?id=MRD19y4Zjm)
 
 ## Installation:
 We currently offer only building from source.
@@ -146,7 +146,7 @@ on Human-Robot Interaction_, 14(2):1–30, 2025.](https://doi-org.ezproxy1.lib.a
 [4] [Smith, M. O. and Zhang, W. Risky Sensitive Theory of 
 Mind: Coordinating with agents of Unknown Bias using Cumulative 
 Prospect Theory," In _Proceedings of the International Conference 
-on Machine Learning (ICML)_, 2025]((https://openreview.net/forum?id=MRD19y4Zjm))
+on Machine Learning (ICML)_, 2025](https://openreview.net/forum?id=MRD19y4Zjm)
 
 ## Questions and Comments
 
