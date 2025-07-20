@@ -138,15 +138,15 @@ Neural Information Processing Systems, pp. 5175–5186, 2019.
 Cumulative representation of uncertainty. _Journal of Risk
 and Uncertainty_, 5(4):297–323, 1992.
 
-[3] Smith, M. O. and Zhang, W. What if i’m wrong? team
+[3] [Smith, M. O. and Zhang, W. What if i’m wrong? team
 performance and trustworthiness when modeling risk-
 sensitivity in human–robot collaboration. _Transactions
-on Human-Robot Interaction_, 14(2):1–30, 2025.
+on Human-Robot Interaction_, 14(2):1–30, 2025.](https://doi-org.ezproxy1.lib.asu.edu/10.1145/3706068)
 
-[4] Smith, M. O. and Zhang, W. Risky Sensitive Theory of 
+[4] [Smith, M. O. and Zhang, W. Risky Sensitive Theory of 
 Mind: Coordinating with agents of Unknown Bias using Cumulative 
 Prospect Theory," In _Proceedings of the International Conference 
-on Machine Learning (ICML)_, 2025. accepted
+on Machine Learning (ICML)_, 2025]((https://openreview.net/forum?id=MRD19y4Zjm))
 
 ## Questions and Comments
 
